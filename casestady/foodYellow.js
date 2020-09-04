@@ -1,9 +1,9 @@
 class FoodYellow{
-    constructor(game) {
-        this.x=0;
-        this.y=0;
+    constructor(x,y,game) {
+        this.x=x;
+        this.y=y;
         this.game=game;
-        this.grid = 20;
+        this.grid = SIZE_SNAKE;
     }
     update(){
         this.x =(Math.floor(Math.random()*(19 - 0))+0)*this.grid

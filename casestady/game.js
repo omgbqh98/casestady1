@@ -14,7 +14,7 @@ init=function () {
     this.canvas.height = CANVAS_HEIGHT;
     document.body.appendChild(this.canvas);
     this.snake = new Snake(this)
-    this.food = new FoodYellow(this)
+    this.food = new FoodYellow(60,100,this)
     this.food2=new FoodBlue(20,20,this)
     this.food3=new FoodBlue(100,100,this)
     this.food4=new FoodBlue(300,300,this)
@@ -23,7 +23,7 @@ init=function () {
 loop=function (){
     update();
     draw();
-    setTimeout(() => loop(), 70);
+    setTimeout(() => loop(), DEFAULT_TIMEOUT_snake);
 }
 
 this.update=function () {
