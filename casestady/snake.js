@@ -48,7 +48,7 @@ class Snake {
         if(!this.endGame()){
             this.game.context.font = '30px Arial';
             this.game.context.fillStyle=getRandomColor()
-            this.game.context.fillText("con rắn TRINH ác độc đã chết, Thua rồi bạn êi..", 100,100)
+            this.game.context.fillText("Thua rồi bạn êi..", 100,100)
             this.game.context.font = '20px Arial';
             this.game.context.fillText("POINT OF YOU: "+this.point, 100,200)
         }
