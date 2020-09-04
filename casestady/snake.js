@@ -18,7 +18,6 @@ class Snake {
             this.x += this.dx;
             this.y += this.dy;
         }
-
         if(this.x >= this.game.canvas.width){
             this.x =DEFAULT_SNAKE_X;
         }else if(this.x < DEFAULT_SNAKE_X){
@@ -43,7 +42,7 @@ class Snake {
 
         for (let i = 0; i < this.Length.length; i++) {
 
-            this.game.context.fillStyle =getRandomColor1();
+            this.game.context.fillStyle ='red';
             this.game.context.fillRect(this.Length[i].x, this.Length[i].y, this.grid, this.grid);
         }
         if(!this.endGame()){
@@ -126,9 +125,9 @@ function getRandomColor(){
     return "rgb(" + red + "," + blue + "," + green +")";
 }
 function getRandomColor1(){
-    let red = getRandomHex();
+    let Brown = getRandomHex();
     let white = getRandomHex();
     let black = getRandomHex();
 
-    return "rgb(" + red + "," + white +","+black+")";
+    return "rgb(" + Brown + "," + white +","+black+")";
 }

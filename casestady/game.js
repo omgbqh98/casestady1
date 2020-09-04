@@ -13,19 +13,18 @@ init=function () {
     this.canvas.width = CANVAS_WIDTH;
     this.canvas.height = CANVAS_HEIGHT;
     document.body.appendChild(this.canvas);
-    this.snake = new Snake(this)
-    this.food = new FoodYellow(60,100,this)
-    this.food2=new FoodBlue(20,20,this)
-    this.food3=new FoodBlue(100,100,this)
-    this.food4=new FoodBlue(300,300,this)
-    this.flashfood=new FlashFood(100,320,this)
+    this.snake = new Snake(this);
+    this.food = new FoodYellow(60,100,this);
+    this.food2=new FoodBlue(20,20,this);
+    this.food3=new FoodBlue(100,100,this);
+    this.food4=new FoodBlue(300,300,this);
+    this.flashfood=new FlashFood(100,320,this);
 }
 loop=function (){
     update();
     draw();
     setTimeout(() => loop(), DEFAULT_TIMEOUT_snake);
 }
-
 this.update=function () {
     this.snake.update();
     if(this.snake.eatYellow(this.food.x,this.food.y)){
@@ -37,7 +36,7 @@ this.update=function () {
     }else if(this.snake.eatBlue(this.food4.x,this.food4.y)){
         this.food4.update();
     }else if(this.snake.eatFlash(this.flashfood.x,this.flashfood.y)){
-        setTimeout(() => this.loop(), 45);
+        setTimeout(() => this.loop(), 50);
         this.flashfood.update();
     }
 }
