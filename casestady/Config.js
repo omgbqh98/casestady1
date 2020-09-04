@@ -5,4 +5,4 @@ const DEFAULT_SNAKE_X=0;
 const DEFAULT_SNAKE_Y=0;
 const SIZE_SNAKE=20;
 const POINT_ORIGIN=0;
-const DEFAULT_TIMEOUT_snake=70;
+const DEFAULT_TIMEOUT_snake=80;
