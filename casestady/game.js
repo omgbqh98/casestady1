@@ -27,13 +27,10 @@ loop=function (){
 }
 
 this.update=function () {
-
     this.snake.update();
     if(this.snake.eatYellow(this.food.x,this.food.y)){
-
         this.food.update();
     }else if(this.snake.eatBlue(this.food2.x,this.food2.y)){
-
         this.food2.update();
     }else if(this.snake.eatBlue(this.food3.x,this.food3.y)){
         this.food3.update();
@@ -43,9 +40,7 @@ this.update=function () {
         setTimeout(() => this.loop(), 45);
         this.flashfood.update();
     }
-
 }
-
 this.draw=function () {
     this.context.clearRect(0,0,this.canvas.width,this.canvas.height);
     this.snake.draw();
@@ -54,9 +49,7 @@ this.draw=function () {
     this.food3.draw();
     this.food4.draw();
     this.flashfood.draw();
-
 }
-
 function startGame(){
     let game = new Game();
     return game
