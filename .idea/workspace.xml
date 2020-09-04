@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d18f45-2d4d-4162-9c7f-bb6c04c526c7" name="Default Changelist" comment="" />
+    <list default="true" id="88d18f45-2d4d-4162-9c7f-bb6c04c526c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gl1uANI6gdBBxvboj3e1LKYQPa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/casestady" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,7 +55,8 @@
       <workItem from="1598778570954" duration="211000" />
       <workItem from="1599056201418" duration="4803000" />
       <workItem from="1599095468656" duration="715000" />
-      <workItem from="1599182025708" duration="10408000" />
+      <workItem from="1599182025708" duration="11502000" />
+      <workItem from="1599204832839" duration="1603000" />
     </task>
     <servers />
   </component>
@@ -57,10 +64,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1599095792668">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1599202497586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599095792667" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599202497586" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1599204935702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599204935702" />
     <state x="637" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598684260347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

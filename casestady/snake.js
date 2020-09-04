@@ -42,7 +42,7 @@ class Snake {
 
         for (let i = 0; i < this.Length.length; i++) {
 
-            this.game.context.fillStyle ='red';
+            this.game.context.fillStyle =getRandomColor1();
             this.game.context.fillRect(this.Length[i].x, this.Length[i].y, this.grid, this.grid);
         }
         if(!this.endGame()){
